@@ -68,7 +68,7 @@ label {
 }
 
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #CAFDC0;
   outline: 0;
 }
 
@@ -80,8 +80,8 @@ label {
 }
 
 button.modalButton {
-  color: #007bff;
-  border-color: #007bff;
+  color: #000000;
+  border-color: #CAFDC0;
 	display: inline-block;
 	font-weight: 400;
 	text-align: center;
@@ -107,22 +107,28 @@ button.modalButton:last-child {
 
 button.modalButton:focus {
   text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: #68975f;
+  border-color: #68975f;
 }
 
 button.modalButton:active:focus {
+  color: rgb(0, 0, 0);
+  background-color: #68975f;
+  border-color: #68975f;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
 button.primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  color: rgb(0, 0, 0);
+  background-color: #CAFDC0;
+  border-color: #CAFDC0;
 }
 
 button.primary:focus {
-  background-color: #286090;
-  border-color: #122b40;
+  background-color: #9dc795;
+  border-color: #769470;
 }
 
 button.default {

@@ -33,7 +33,7 @@ const defaultPreferences: ConfigV3 = {
     autostart: true,
     hideOnStart: false,
     spellCheckerLocales: [],
-    darkMode: false,
+    darkMode: true,
     lastActiveTeam: 0,
     downloadLocation: getDefaultDownloadLocation(),
 };

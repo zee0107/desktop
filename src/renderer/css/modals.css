@@ -3,6 +3,13 @@ body {
 }
 
 .btn-primary {
-    background-color: #166de0;
-    border-color: #166de0;
+    color: #000;
+    background-color: #cafdc0;
+    border-color: #cafdc0;
+}
+
+.btn-primary:hover {
+  color: #000;
+  background-color: #66995b;
+  border-color: #66995b;
 }
