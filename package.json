@@ -1,6 +1,6 @@
 {
   "name": "crypter-desktop",
-  "productName": "Crypter",
+  "productName": "Mattermost",
   "version": "5.0.0-develop",
   "description": "Crypter",
   "main": "dist/index.js",
