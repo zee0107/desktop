@@ -1,12 +1,12 @@
 {
   "name": "crypter-desktop",
-  "productName": "Mattermost",
+  "productName": "Crypter",
   "version": "5.0.0-develop",
   "description": "Crypter",
   "main": "dist/index.js",
-  "author": "Mattermost, Inc. <feedback@mattermost.com>",
+  "author": "Crypter, Inc. <feedback@crypter.com>",
   "license": "Apache-2.0",
-  "desktopName": "Mattermost.Desktop",
+  "desktopName": "Crypter.Desktop",
   "homepage": "https://about.mattermost.com",
   "engines": {
     "node": ">=4.2.0"

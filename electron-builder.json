@@ -3,7 +3,7 @@
     "provider": "generic",
     "url": "https://releases.mattermost.com/desktop/"
   }],
-  "appId": "Mattermost.Desktop",
+  "appId": "Crypter.Desktop",
   "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
   "directories": {
     "buildResources": "src/assets",
@@ -23,7 +23,7 @@
   ],
   "protocols": [
     {
-      "name": "Mattermost",
+      "name": "Crypter",
       "schemes": [
         "mattermost",
         "http",
@@ -37,7 +37,7 @@
   "afterPack": "scripts/afterpack.js",
   "afterSign": "scripts/notarize.js",
   "deb": {
-    "synopsis": "Mattermost Desktop App",
+    "synopsis": "Crypter Desktop App",
     "depends": ["gconf2", "gconf-service", "libnotify4", "libxtst6", "libnss3"],
     "category": "contrib/net",
     "priority": "optional"

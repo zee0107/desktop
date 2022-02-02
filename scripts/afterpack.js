@@ -25,9 +25,9 @@ function fixSetuid(context) {
 function getAppFileName(context) {
     switch (context.electronPlatformName) {
     case 'win32':
-        return 'Mattermost.exe';
+        return 'Crypter.exe';
     case 'darwin':
-        return 'Mattermost.app';
+        return 'Crypter.app';
     case 'linux':
         return context.packager.executableName;
     default:

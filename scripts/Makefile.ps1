@@ -557,11 +557,11 @@ function Run-BuildForceSignature {
                 signtool.exe sign /f "./mattermost-desktop-windows.pfx" /p "$env:PFX_KEY" /tr "http://timestamp.digicert.com" /fd sha256 /td sha256 /as "$($_.FullName)"
             }
 
-            Print-Info "Signing Mattermost.exe (waiting for 2 * 15 seconds)..."
+            Print-Info "Signing Crypter.exe (waiting for 2 * 15 seconds)..."
             Start-Sleep -s 15
-            signtool.exe sign /f "./mattermost-desktop-windows.pfx" /p "$env:PFX_KEY" /tr "http://timestamp.digicert.com" /fd sha1 /td sha1 "$archPath\Mattermost.exe"
+            signtool.exe sign /f "./mattermost-desktop-windows.pfx" /p "$env:PFX_KEY" /tr "http://timestamp.digicert.com" /fd sha1 /td sha1 "$archPath\Crypter.exe"
             Start-Sleep -s 15
-            signtool.exe sign /f "./mattermost-desktop-windows.pfx" /p "$env:PFX_KEY" /tr "http://timestamp.digicert.com" /fd sha256 /td sha256 /as "$archPath\Mattermost.exe"
+            signtool.exe sign /f "./mattermost-desktop-windows.pfx" /p "$env:PFX_KEY" /tr "http://timestamp.digicert.com" /fd sha256 /td sha256 /as "$archPath\Crypter.exe"
         }
     } else {
         Print-Info "Certificate file not found, DLLs and executable won't be signed."
